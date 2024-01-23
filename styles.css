@@ -1,0 +1,8 @@
+a {
+    background-color: red;
+    font-size: 20px;
+}
+
+a[target] {
+    background-color: yellow;
+}
