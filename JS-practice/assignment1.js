@@ -65,3 +65,34 @@ if (evenOrOdd % 2 === 0) {
 // if (num1 === num2) {
 //   console.log(`${num1} and ${num2} are equal`);
 // }
+
+// 27. Write a program to print the least number given two numbers?
+
+// const num1 = parseInt(prompt("Enter a digit 1: "));
+// const num2 = parseInt(prompt("Enter a digit 2: "));
+
+// if (num2 < num1) {
+//   console.log(`${num2} is lowest`);
+// }
+// if (num1 < num2) {
+//   console.log(`${num1} is lowest`);
+// }
+// if (num1 === num2) {
+//   console.log(`${num1} and ${num2} are equal`);
+// }
+
+// Write a program to print the greatest number in given three numbers?
+/* 
+const num1 = parseInt(prompt("Enter a digit 1: "));
+const num2 = parseInt(prompt("Enter a digit 2: "));
+const num3 = parseInt(prompt("Enter a digit 3: "));
+
+if (num1 > num2 && num1 > num3) {
+  console.log(`${num1} is greater`);
+}
+if (num2 > num1 && num2 > num3) {
+  console.log(`${num2} is greater`);
+}
+if (num3 > num1 && num3 > num2) {
+  console.log(`${num3} is greater`);
+} */
