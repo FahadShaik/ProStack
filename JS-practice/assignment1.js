@@ -96,3 +96,46 @@ if (num2 > num1 && num2 > num3) {
 if (num3 > num1 && num3 > num2) {
   console.log(`${num3} is greater`);
 } */
+
+// Write a program to print the least number in given three numbers?
+
+// const num1 = parseInt(prompt("Enter a digit 1: "));
+// const num2 = parseInt(prompt("Enter a digit 2: "));
+// const num3 = parseInt(prompt("Enter a digit 3: "));
+
+// if (num1 < num2 && num1 < num3) {
+//   console.log(`${num1} is least`);
+// }
+// if (num2 < num1 && num2 < num3) {
+//   console.log(`${num2} is least`);
+// }
+// if (num3 < num1 && num3 < num2) {
+//   console.log(`${num3} is least`);
+// }
+
+// 30. Write a program to print the given 3 numbers in ascending orders?
+
+const num1 = parseInt(prompt("Enter a digit 1: "));
+const num2 = parseInt(prompt("Enter a digit 2: "));
+const num3 = parseInt(prompt("Enter a digit 3: "));
+
+// 23 43 5
+// 5 23 43
+if (num1 < num2 && num2 < num3) {
+  console.log(num1, " ", num2, " ", num3);
+}
+if (num3 < num2 && num2 < num1) {
+  console.log(num3, " ", num2, " ", num1);
+}
+if (num1 < num3 && num3 < num2) {
+  console.log(num1 + " " + num3 + " " + num2);
+}
+if (num2 < num1 && num1 < num3) {
+  console.log(num2 + " " + num1 + " " + num3);
+}
+if (num2 < num3 && num3 < num1) {
+  console.log(num2 + " " + num3 + " " + num1);
+}
+if (num3 < num1 && num1 < num2) {
+  console.log(num3 + " " + num1 + " " + num2);
+}
