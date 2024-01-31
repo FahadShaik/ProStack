@@ -121,7 +121,7 @@ const num3 = parseInt(prompt("Enter a digit 3: "));
 
 // 23 43 5
 // 5 23 43
-if (num1 < num2 && num2 < num3) {
+/* if (num1 < num2 && num2 < num3) {
   console.log(num1, " ", num2, " ", num3);
 }
 if (num3 < num2 && num2 < num1) {
@@ -138,4 +138,4 @@ if (num2 < num3 && num3 < num1) {
 }
 if (num3 < num1 && num1 < num2) {
   console.log(num3 + " " + num1 + " " + num2);
-}
+} */
