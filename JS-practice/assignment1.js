@@ -160,7 +160,7 @@ if (a >= b && b >= c) {
  */
 
 //32. JavaScript Program to find largest of Three Numbers?
-const dig1 = 102;
+/* const dig1 = 102;
 const dig2 = 33;
 const dig3 = 2000;
 
@@ -172,4 +172,29 @@ if (dig2 > dig1 && dig2 > dig3) {
 }
 if (dig3 > dig1 && dig3 > dig2) {
   console.log(dig3);
-}
+} */
+
+// Ternary operator questions
+// 33. JS Program check if a number is divisible by 7 or not using a ternary operator?
+//const num = 14;
+
+/* num % 7 === 0 ? console.log("divisible by 7") : console.log("not divisible "); */
+
+//34. JS Program to check if a number is multiple of 3 or not using a ternary operator?
+// const multipleThree = 13;
+
+// multipleThree % 3 === 0 ? console.log("yes") : console.log("no");
+
+// const posNum = 1;
+
+// posNum >= 0 ? console.log("positive num") : console.log("negative");
+
+// //36. JS Program to check if a number is 3-digit numbers or not using a ternary operator?
+
+// const num = 12;
+// num > 99 && num < 999 ? console.log("three digit") : console.log("not 3 digit");
+
+// 37. Write a program to print even or odd for a given number using a ternary operator?
+const evnOdd = 2;
+
+evnOdd % 2 === 0 ? console.log("even") : console.log("odd");
