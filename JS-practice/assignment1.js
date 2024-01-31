@@ -115,9 +115,9 @@ if (num3 > num1 && num3 > num2) {
 
 // 30. Write a program to print the given 3 numbers in ascending orders?
 
-const num1 = parseInt(prompt("Enter a digit 1: "));
-const num2 = parseInt(prompt("Enter a digit 2: "));
-const num3 = parseInt(prompt("Enter a digit 3: "));
+// const num1 = parseInt(prompt("Enter a digit 1: "));
+// const num2 = parseInt(prompt("Enter a digit 2: "));
+// const num3 = parseInt(prompt("Enter a digit 3: "));
 
 // 23 43 5
 // 5 23 43
@@ -139,3 +139,21 @@ if (num2 < num3 && num3 < num1) {
 if (num3 < num1 && num1 < num2) {
   console.log(num3 + " " + num1 + " " + num2);
 } */
+
+const a = parseInt(prompt("Enter a digit 1: "));
+const b = parseInt(prompt("Enter a digit 2: "));
+const c = parseInt(prompt("Enter a digit 3: "));
+
+if (a >= b && b >= c) {
+  console.log(a, " ", b, " ", c);
+} else if (a >= c && c >= b) {
+  console.log(a, " ", c, " ", b);
+} else if (b >= a && a >= c) {
+  console.log(b, " ", a, " ", c);
+} else if (b >= c && c >= a) {
+  console.log(b, " ", c, " ", a);
+} else if (c >= a && a >= b) {
+  console.log(c, " ", a, " ", b);
+} else if (c >= b && b >= a) {
+  console.log(c, " ", b, " ", a);
+}
