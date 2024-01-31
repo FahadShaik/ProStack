@@ -140,7 +140,7 @@ if (num3 < num1 && num1 < num2) {
   console.log(num3 + " " + num1 + " " + num2);
 } */
 
-const a = parseInt(prompt("Enter a digit 1: "));
+/* const a = parseInt(prompt("Enter a digit 1: "));
 const b = parseInt(prompt("Enter a digit 2: "));
 const c = parseInt(prompt("Enter a digit 3: "));
 
@@ -156,4 +156,20 @@ if (a >= b && b >= c) {
   console.log(c, " ", a, " ", b);
 } else if (c >= b && b >= a) {
   console.log(c, " ", b, " ", a);
+}
+ */
+
+//32. JavaScript Program to find largest of Three Numbers?
+const dig1 = 102;
+const dig2 = 33;
+const dig3 = 2000;
+
+if (dig1 > dig2 && dig1 > dig3) {
+  console.log(dig1);
+}
+if (dig2 > dig1 && dig2 > dig3) {
+  console.log(dig2);
+}
+if (dig3 > dig1 && dig3 > dig2) {
+  console.log(dig3);
 }
