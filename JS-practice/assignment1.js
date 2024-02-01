@@ -195,6 +195,6 @@ if (dig3 > dig1 && dig3 > dig2) {
 // num > 99 && num < 999 ? console.log("three digit") : console.log("not 3 digit");
 
 // 37. Write a program to print even or odd for a given number using a ternary operator?
-const evnOdd = 2;
+// const evnOdd = 2;
 
-evnOdd % 2 === 0 ? console.log("even") : console.log("odd");
+// evnOdd % 2 === 0 ? console.log("even") : console.log("odd");
