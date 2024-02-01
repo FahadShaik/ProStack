@@ -250,7 +250,7 @@ let maleCount = 0;
 let femaleCount = 0;
 let biCount = 0;
 //to loop over an array we use for of loop(es6 feature)
-for (employee of employees) {
+/* for (employee of employees) {
   //   console.log(employee.name);
   //Filter out only the male employees
   if (employee.gender === "Male") {
@@ -265,6 +265,25 @@ for (employee of employees) {
   if (employee.gender == "Bigender") {
     biCount++;
     console.log(employee.name, " ", employee.gender);
+  }
+} */
+
+// using traditional for loop
+
+for (let i = 0; i < employees.length; i++) {
+  // to print the name of the employees
+  console.log(employees[i].name);
+  if (employees[i].gender === "Male") {
+    maleCount++;
+    console.log(employees[i].name, " ", employees[i].gender);
+  }
+  if (employees[i].gender === "Female") {
+    femaleCount++;
+    console.log(employees[i].name, " ", employees[i].gender);
+  }
+  if (employees[i].gender === "Bigender") {
+    biCount++;
+    console.log(employees[i].name, " ", employees[i].gender);
   }
 }
 console.log("Number of male employees are: ", maleCount);
