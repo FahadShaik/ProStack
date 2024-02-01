@@ -61,7 +61,7 @@ while (i <= 10) {
 /* for (let i = 100; i >= 1; i--) {
   console.log(i);
 } */
-
+/* 
 //46. Write a program to print 50 to 150 numbers using For Loop
 for (let i = 50; i <= 150; i++) {
   console.log(i);
@@ -87,3 +87,46 @@ for (let i = 1; i <= 10; i++) {
     console.log(i);
   }
 }
+ */
+//DO WHile
+//50. Write a program to print 1 to 10 numbers using a do while loop
+/* let i = 1;
+do {
+  console.log(i);
+  i++;
+} while (i <= 10); */
+
+// 51. Write a program to print 10 to 1 number using a do while loop
+/* let i = 10;
+do {
+  console.log(i);
+  i--;
+} while (i >= 1); */
+// 52. Write a program to print 5 to 15 numbers using do while Loop
+/* let i = 5;
+do {
+  console.log(i);
+  i++;
+} while (i <= 15); */
+// 53. Write a program to print 15 to 10 numbers using do while Loop
+/* let i = 15;
+do {
+  console.log(i);
+  i--;
+} while (i >= 10); */
+// 54. Write a program to print 1 to 10 even numbers using a do while loop
+// let i = 1;
+// do {
+//   if (i % 2 === 0) {
+//     console.log(i);
+//   }
+//   i++;
+// } while (i <= 10);
+// 55. Write a program to print 1 to 10 odd numbers using do while Loop
+let i = 1;
+do {
+  if (i % 2 !== 0) {
+    console.log(i);
+  }
+  i++;
+} while (i <= 10);
