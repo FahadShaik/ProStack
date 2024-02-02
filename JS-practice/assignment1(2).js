@@ -43,4 +43,17 @@ while (i <= 10) {
 
 // 61. Write a program to print the Fibonacci number series up to a given number.
 // Expected out 17 -: 0 1 1 2 3 5 8 13
+
+//0 1 2 3 4 5 6 7 8 9 10 11 12 13
+let currentNum = 1;
+let postNum = 0;
+let fib = 0;
+let i = 0;
+while (i <= 6) {
+  fib = currentNum + postNum;
+  currentNum = postNum;
+  postNum = fib;
+  i++;
+  console.log(fib);
+}
 // 62. Write a program to check if a given number is an Armstrong number or not.
