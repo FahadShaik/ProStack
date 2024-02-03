@@ -1,4 +1,4 @@
-var prompt = require("prompt-sync")();
+// var prompt = require("prompt-sync")();
 
 // complex problems 56-62
 
@@ -46,14 +46,13 @@ while (i <= 10) {
 
 //0 1 2 3 4 5 6 7 8 9 10 11 12 13
 let currentNum = 1;
-let postNum = 0;
-let fib = 0;
+let previousNum = 0;
+let summingUp = 0;
 let i = 0;
 while (i <= 6) {
-  fib = currentNum + postNum;
-  currentNum = postNum;
-  postNum = fib;
+  summingUp = currentNum + previousNum;
+  currentNum = previousNum;
+  previousNum = summingUp;
   i++;
-  console.log(fib);
 }
 // 62. Write a program to check if a given number is an Armstrong number or not.
