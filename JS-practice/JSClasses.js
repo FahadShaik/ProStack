@@ -9,9 +9,8 @@ const employee = {
   empId: 101,
   name: "Steve Rogers",
 };
-const nameOne = "Avengers";
-const numberOne = 1;
-// document.write(employee, numberOne, nameOne); // result is[object Object] for employee and number and string can be printed
+
+// document.write(employee); // result is[object Object] for employee and number and string can be printed
 
 // So to read the object data on our screen we need methods from JS classes and these classes are very benefitial and powerful
 
@@ -19,7 +18,7 @@ const numberOne = 1;
 -> JSON.stringify()
 document.write(JSON.stringify(employee));
 -> JSON.parse() */
-const amazingMovie = {
+/* const amazingMovie = {
   movieName: "Endgame",
   villian: "Thanos",
   mission: "Inifinity Stones",
@@ -31,4 +30,28 @@ document.write(amazingMovie);
 document.write(JSON.stringify(amazingMovie));
 
 const nameStr = '{"sample": 23, "nameher":"Natasha"}';
-console.log(JSON.parse(nameStr)); // this returns an object
+console.log(JSON.parse(nameStr)); */ // this returns an object
+/*************************************************** */
+//Array Methods
+// 1. shift
+// 2. unshift
+// 3. push
+// 4. pop
+//5.length
+
+const array = [101, 102, 103, 104];
+
+array.push(133); //adds element to last index
+console.log(array);
+document.write(array);
+
+array.pop(array[1]); // deletes array element from last index
+console.log(array);
+
+array.unshift(100); // adds element to the first of array
+console.log(array);
+
+array.shift(array[2]); // deletes 2 elemets from initial array
+array.shift(101);
+
+console.log(array);
