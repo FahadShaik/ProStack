@@ -5,10 +5,10 @@
 4. Sets Etc
 
 1. to read the object on the html page that is not possible example */
-const employee = {
-  empId: 101,
-  name: "Steve Rogers",
-};
+// const employee = {
+//   empId: 101,
+//   name: "Steve Rogers",
+// };
 
 // document.write(employee); // result is[object Object] for employee and number and string can be printed
 
@@ -39,19 +39,31 @@ console.log(JSON.parse(nameStr)); */ // this returns an object
 // 4. pop
 //5.length
 
-const array = [101, 102, 103, 104];
+// const array = [101, 102, 103, 104];
 
-array.push(133); //adds element to last index
-console.log(array);
-document.write(array);
+// array.push(133); //adds element to last index
+// console.log(array);
+// document.write(array);
 
-array.pop(array[1]); // deletes array element from last index
-console.log(array);
+// array.pop(array[1]); // deletes array element from last index
+// console.log(array);
 
-array.unshift(100); // adds element to the first of array
-console.log(array);
+// array.unshift(100); // adds element to the first of array
+// console.log(array);
 
-array.shift(array[2]); // deletes 2 elemets from initial array
-array.shift(101);
+// array.shift(array[2]); // deletes 2 elemets from initial array
+// array.shift(101);
 
-console.log(array);
+// console.log(array);
+/***********************Object methods */
+
+const employee = {
+  empId: 101,
+  name: "Steve Rogers",
+};
+
+console.log(Object.keys(employee));
+console.log(Object.values(employee));
+
+// to find the length we use the length after getting the keys property from the retreiving sequence arrays from the keys
+console.log(Object.keys(employee).length); // 2
