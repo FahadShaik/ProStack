@@ -299,6 +299,38 @@ function filterHandler(employeeGender) {
   }
 }
 
+/**Applying pagination for the table */
+
+const rowsPerPage = 20;
+const totalPages = Math.ceil(employees.length / rowsPerPage);
+console.log(totalPages);
+
+const paginationFeature = Array.from({ length: totalPages }, (_, index) => {
+  //   console.log(index);
+  const start = index * rowsPerPage;
+  const demo = employees.slice(start, start + rowsPerPage);
+
+  return demo;
+});
+
+console.log(paginationFeature);
+
+function pageHandler(pageNumber) {
+  let currentPageData = paginationFeature[pageNumber - 1];
+  let row = "";
+  for (emp of currentPageData) {
+    row =
+      row +
+      `<tr>
+              <td>${emp.id}</td>
+              <td>${emp.name}</td>
+              <td>${emp.gender}</td>
+              <td>${emp.email}</td>
+          </tr>`;
+  }
+  tableBody.innerHTML = row;
+}
+
 // tableBody.innerHTML = "Hi";
 
 // Looping over an array of details to place into the table
