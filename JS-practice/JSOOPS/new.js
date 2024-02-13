@@ -14,14 +14,17 @@ class Employee {
   }
   testingCode() {
     this.empSal = 25000;
+    console.log(this.empSal);
     console.log("test Code");
   }
   HandlingStage() {
     this.empSal = 26000;
+    console.log(this.empSal);
     console.log("push code to stage");
   }
   prodDeployment() {
     this.empSal = 37000;
+    console.log(this.empSal);
     console.log("deploy code");
   }
 }
@@ -33,3 +36,4 @@ const stageEMp = new Employee();
 const prodEmp = new Employee();
 
 designerEmp.creatingDesigns();
+developerEmp.developingCode();
