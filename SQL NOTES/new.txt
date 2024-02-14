@@ -17,3 +17,20 @@ steps followed to create database , table and insert values inside table and sho
 -->  insert into table_name 
      values(table_data and if strings ''); // to insert data into the tables
 --> select * from table_name // shows the entire table.
+
+suppose if we don't wanna give a data for a particular row we shall write one more syntax like given below
+--> insert into product_table(id, name, price)
+    values(105, 'redmi', 6000);
+
+here there are around 4 table headers including description and if we are not giving any description the output in the table comes as a NULL
+
+to display only the number of columns from the existing table
+--> select colname1 , colname2 FROM table_name;
+
+to Update the table row's inner data
+
+->update product_table
+    -> set name = 'oppo'
+    -> where id = 103;
+
+    
