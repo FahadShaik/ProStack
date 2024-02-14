@@ -1,0 +1,9 @@
+mySQL depends on the schema based RDBMS system where the data is in the form of tables ie rows and columns
+
+mySQL is having queries which are divided into DDL, DML, DQL, DCL+TCL.
+
+first we need  to learn how to create a database , how to create a table with constraints and how to update the constraints by populating the data inside the table.
+
+next we will learn how to modify the table data by update method and later on comes the select * from feature to fetch particular data.
+
+NOW everything is done on commandline further we are going to do the same with sqlYog or workbench GUI
