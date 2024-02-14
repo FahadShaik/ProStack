@@ -7,3 +7,13 @@ first we need  to learn how to create a database , how to create a table with co
 next we will learn how to modify the table data by update method and later on comes the select * from feature to fetch particular data.
 
 NOW everything is done on commandline further we are going to do the same with sqlYog or workbench GUI
+
+steps followed to create database , table and insert values inside table and show data in table.
+
+--> create database database_name; // semicolon is must and database_name is custom
+--> use database_name; // switching on to the database
+--> create table table_name(table_heads, type of table_heads); //creating rows and columns for the table we need headers
+--> desc table_name; // shows the table headers with constraints
+-->  insert into table_name 
+     values(table_data and if strings ''); // to insert data into the tables
+--> select * from table_name // shows the entire table.
