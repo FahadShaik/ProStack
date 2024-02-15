@@ -32,5 +32,18 @@ to Update the table row's inner data
 ->update product_table
     -> set name = 'oppo'
     -> where id = 103;
+// to drop the table
 
-    
+->drop table table_name;
+
+Constraints in mySQL:
+DEFAULT, primary key, foreign key, check, unique, not null.
+
+all of these describes about the content while inserting into the table 
+1. default presets the value , if not entered manually the default fills it up.
+2. primary key is giving the non empty feature and uniqueness while we try duplication it throws error.
+3. foreign key targets the data outside which is insisting in other table, and if it matches it allows to enter the data or else gives us an error.
+4. check uses to check for particular condition and allow to insert in the table.
+5. unique doesn't allow duplication of values but can allow null type entries.
+6. if we give not null and try to insert null value this throws an error.
+
