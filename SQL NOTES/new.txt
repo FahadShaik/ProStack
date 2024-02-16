@@ -47,3 +47,14 @@ all of these describes about the content while inserting into the table
 5. unique doesn't allow duplication of values but can allow null type entries.
 6. if we give not null and try to insert null value this throws an error.
 
+DQL Commands in mySQL
+select * from
+where clause
+order by clause 
+group by clause
+
+wild card characters used with like keyword.
+
+
+
+
