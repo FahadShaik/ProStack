@@ -54,6 +54,11 @@ order by clause
 group by clause
 
 wild card characters used with like keyword.
+% uses to find the words into the table 
+ex %er searchs the words starting with er
+ex er% searchs the words ending with er
+ex %er% searchs the words in between with er (term)
+
 
 
 
