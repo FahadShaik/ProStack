@@ -1,3 +1,34 @@
 Hoisting in JS?
 
 ==>
+
+
+First class functions.
+--> First class functions are passed as values inside the params basically considered as values.
+basically known as a feature of a programming language where it is possible to pass another function as value or not.
+
+
+Higher order function? is a function that recieves another function as a argument or returns one more function.
+Example, Map, filter, eventlisteners, setTimeout , setInterval
+
+call(), apply(), bind().
+
+this methods are inbuilt methods which every JS function gets
+-> this works well with the objects where if an object has a method which performs operations and we have one more object where we need to perform the same logic we can call that method in the new object.  
+
+const myObjOne = {
+  productName: "Iphone",
+  productModel: " Pro maX",
+  concatFn: function () {
+    console.log(this.productName + this.productModel);
+  },
+};
+
+myObjOne.concatFn(); // gives concat string
+
+const myObjTwo = {
+  productName: "Samasung",
+  productModel: " S23 Ultra",
+};
+
+myObjOne.concatFn.call(myObjTwo); //performs same
