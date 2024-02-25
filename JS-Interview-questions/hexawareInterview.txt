@@ -1,0 +1,18 @@
+q1-> What's difference between == and ===? (check)
+q2-> What's promise in JS? (check)
+q3-> What's async await in JS? (check)
+q4-> How can you make API calls in JS? (check)
+q5-> If we have an array  const arr = ["a", "b", "c", "d", "e", "f"] How do you filter out and print that string "f" is present in an array using the inbuilt array methods?
+(uncheck) - i wrote the code but couldn't explain the flow.
+
+CSS 
+q6-> Do you know about media queries?(check)
+q7-> How do you apply the scroll thumb in the right and below to scroll down and scroll side ways?(check partially) - could recall the property only x-scroll 
+
+React
+q7-> What is React?(check)
+q8-> Why React is used instead of JS?(check)
+q9-> What Hooks you have used currently?(check)
+q10-> Write the syntax of useState Hook and explain the syntax?(check)
+q11-> Hello button is created on UI and i want to click to change the innerText of that button with useState Hook write the code using functional component?(uncheck)- Wasn't prepared on React and i freezed after writing up the wrong syntax.
+q12-> Have you used useRef And useContext hook?(uncheck).
