@@ -1,6 +1,6 @@
 Hoisting in JS?
 
-==>
+==>The functionality whre the variables or functions can be executed before initialization this is a special feature given to us by JS
 
 
 First class functions.
@@ -32,3 +32,8 @@ const myObjTwo = {
 };
 
 myObjOne.concatFn.call(myObjTwo); //performs same
+
+
+Callbacks in JS?
+Callbacks are the first class citizens means that they can be passed as arguments to the function which gives an scope of exposure for the function to find its way into the world of JS.
+Please refer callbacks.js for code example.
