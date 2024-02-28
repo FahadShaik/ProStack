@@ -63,3 +63,5 @@ c) Now the third line is also executed in GEC
 When all the call stack is empty the callback inside the setTimeout needs to be pushed on the call stack this is when the callstack queue comes into picture, 
 
 as soon as the timer expires the function is now tunneled on the callstack queue and later the event loop stays there and checks(monitors) wether the callstack is empty as it sees that the callstack is empty the callback is been immediately pushed on the GEC and then it is executed by the callstack's GEC for that callback.
+
+But one more task queue is there where only the promises are been scheduled first and the functions are pushed inside it. so the event loop initially monitors the microtask queue and later the callstack queue.Hence the callbacks from the promises is given more priority.
