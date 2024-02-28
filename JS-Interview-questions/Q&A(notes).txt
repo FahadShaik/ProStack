@@ -34,6 +34,32 @@ const myObjTwo = {
 myObjOne.concatFn.call(myObjTwo); //performs same
 
 
+What is Web API?
+->Web API's is the special features created into the browsers for the more powerful useage of JS. Basically we can come to know that document.getELementById is also a web api feature , Console.log is also a webApi feature, setTimeout is also web Api feature. fetch() is too etc
+
 Callbacks in JS?
-Callbacks are the first class citizens means that they can be passed as arguments to the function which gives an scope of exposure for the function to find its way into the world of JS.
+-> Callbacks are the first class citizens means that they can be passed as arguments to the function which gives an scope of exposure for the function to find its way into the world of JS.
 Please refer callbacks.js for code example.
+
+Event Loops in JS?
+This is mainly connected to a callbacks.
+-> lets write some code and fix this into my mind permanently
+
+console.log("a");
+
+setTimeout(function cb(){
+  console.log("callback executed")
+}, 10000);
+
+console.log("b")
+
+a) When line one is run the webapi is and in a global exec context is created.
+a is run immediately
+
+b) now setTimeout is called and the timer api is attached and later 10000 ms is given the time
+
+c) Now the third line is also executed in GEC
+
+When all the call stack is empty the callback inside the setTimeout needs to be pushed on the call stack this is when the callstack queue comes into picture, 
+
+as soon as the timer expires the function is now tunneled on the callstack queue and later the event loop stays there and checks(monitors) wether the callstack is empty as it sees that the callstack is empty the callback is been immediately pushed on the GEC and then it is executed by the callstack's GEC for that callback.
